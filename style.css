@@ -1,0 +1,305 @@
+body { margin 0;} 
+body * {box-sizing: border-box;}
+
+html, body {
+ height:100%;
+ width: 100%;
+ padding:0;
+ margin:0;
+ scroll-behavior: smooth;
+}
+
+
+/* Header Section Begin */
+
+.header {
+ background-image:url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.headertext{
+  padding-left:10%;
+  padding-right: 10%;
+  text-align: left; 
+  position:absolute;                  
+  bottom:0;
+ 
+}
+
+h1{
+  color: white;
+  font-family: montserrat;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1em;
+}
+
+h2{
+  color: white;
+  font-family: montserrat;
+  font-weight: 200;
+  line-height: 1em;
+}
+
+/* Header Section End */
+
+
+/* Navigation Bar Section Begin */
+
+.navbar{
+  overflow: hidden;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding-left:10%;
+  ladding-right: 10%;
+  overflow: hidden;
+  background-color: #40823c;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: montserrat;
+}
+
+.navbar li a:hover {
+  background-color: white;
+  color: #40823c;
+}
+
+/* Navigation Bar Section End */
+
+/* Main Content Section Begin */
+
+.content{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h3{
+  font-family: montserrat;
+  font-size: 2em;
+  color: #40823c;
+}
+
+h4{
+  font-family: montserrat;
+  font-size: 1.2em;
+  color: #40823c;
+}
+p{
+  text-align: left;
+  font-size: 1.2em;
+  color: #2e2e2e;
+  font-family: montserrat;
+}
+
+.about{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.project-layout{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* Resume Section Begin */
+
+.resumephoto{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;  
+}
+#image{
+  inline:left;
+  max-width:100%;
+ 
+}
+
+/* Resume Section End */
+
+/* Contact Section Begin */
+
+#contact-statement-1{
+  padding-top: 2em;
+  text-align: center;
+}
+
+#contact-statement-2{
+  padding-bottom: 2em;
+  text-align: center;
+}
+  
+
+.social-links {
+  padding:0;
+  list-style: none;
+  text-align: center;
+  font-size: 1.5em;
+  
+
+}
+
+.social-buttons li {
+ display:inline-block;
+
+ 
+}
+
+.social-buttons a {
+  color: #40823c;
+  background-color: white;
+
+}
+
+
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+    color:white;
+}
+
+.fa-google {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+}
+.fa-google:hover {
+    background-color: #e64a41;
+    color:white;
+}
+
+.fa-codepen {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: white;
+}
+.fa-codepen:hover {
+    background-color: #eb8231;
+    color:white;
+}
+
+.fa-github {
+  
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+   color:white;
+}
+
+/* Contact Section End */
+
+button {
+  display: block;
+  margin: auto;
+  width: 150px;
+  padding: 0.75em;
+  margin-top: 10em;
+  margin-bottom: 5em;
+  color: #40823c;
+  background-color: white; 
+  border: 2px solid #40823c; 
+  cursor: pointer;
+  overflow: hidden;
+  font-size:15px;
+ 
+}
+
+button:hover{
+  background-color:#40823c;
+  color: white;
+}
+
+/* Main Content Section End */
+
+
+/* Footer Section Begin */
+
+.footer{
+  background-color: #40823c;
+  padding-top: 2em;
+  padding-bottom:1em;
+  padding-left:10%;
+  padding-right: 10%;
+  font-family: montserrat;
+  overflow:hidden;
+}
+
+.outertable{
+ width: 100%;
+}
+
+.tableleft{
+  float:left;
+  color: white;
+}
+
+#footer-logo{
+  font-size: 1.5em; 
+  font-weight: 600;
+}
+
+.tableright{
+  float: right;
+  color: white;
+}
+
+div.footer a{
+  color:white;
+}
+
+div.footer a:hover{
+  color: white;
+}
+
+/* Footer Section End */
+
+
+
+
