@@ -67,11 +67,8 @@ h2{
   background-color: #40823c;
 }
 
-.navbar li {
+.nav-links a {
   float: left;
-}
-
-.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -81,7 +78,7 @@ h2{
   font-family: montserrat;
 }
 
-.navbar li a:hover {
+.nav-links a:hover {
   background-color: white;
   color: #40823c;
 }
