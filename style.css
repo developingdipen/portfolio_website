@@ -275,6 +275,7 @@ button:hover{
 .tableleft{
   float:left;
   color: white;
+  text-align: left;
 }
 
 #footer-logo{
@@ -285,6 +286,7 @@ button:hover{
 .tableright{
   float: right;
   color: white;
+  text-align: right;
 }
 
 div.footer a{
@@ -297,6 +299,41 @@ div.footer a:hover{
 
 /* Footer Section End */
 
+/*Media Queries Start*/
 
+@media (max-width: 1440px) {
+   .resumephoto{
+  width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+ .headertext, 
+ .nav-links,
+ .content,
+ .footer {
+    padding: 2% 5% 2% 5%;
+  }
+ 
+}
+
+@media (max-width: 520px) {
+ .headertext, 
+ .nav-links,
+ .content,
+ .footer {
+    padding: 1% 2% 1% 2%;
+  }
+  
+  
+  #footer-logo{
+    font-size: 1em;
+  }
+  
+  .footer td{
+    font-size: .8em;
+  }
+}
+/*Media Queries End*/
 
 
