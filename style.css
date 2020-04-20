@@ -72,9 +72,9 @@ h2{
   display: block;
   color: white;
   text-align: center;
-  padding: 18px 18px;
+  padding: 1em .95em;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.2em;
   font-family: montserrat;
 }
 
@@ -315,6 +315,10 @@ div.footer a:hover{
     padding: 2% 5% 2% 5%;
   }
  
+ .navbar a {
+     font-size: 1.2em;
+     padding: .5em .5em;
+  }
 }
 
 @media (max-width: 520px) {
@@ -333,7 +337,24 @@ div.footer a:hover{
   .footer td{
     font-size: .8em;
   }
+ 
+ .navbar a {
+     font-size: 1em;
+     padding: .5em .5em;
+  }
+  
 }
+
+ @media (max-width: 390px) {
+ .headertext, 
+ .nav-links {
+    padding: 1% 2% 1% 2%;
+  }
+   .navbar a {
+     font-size: .8em;
+     padding: .3em .3em;
+  }
+    
 /*Media Queries End*/
 
 
