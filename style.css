@@ -315,7 +315,7 @@ div.footer a:hover{
     padding: 2% 5% 2% 5%;
   }
  
- .navbar a {
+ .nav-links a {
      font-size: 1.2em;
      padding: .5em .5em;
   }
@@ -338,7 +338,7 @@ div.footer a:hover{
     font-size: .8em;
   }
  
- .navbar a {
+ .nav-links a {
      font-size: 1em;
      padding: .5em .5em;
   }
@@ -350,7 +350,7 @@ div.footer a:hover{
  .nav-links {
     padding: 1% 2% 1% 2%;
   }
-   .navbar a {
+   .nav-links a {
      font-size: .8em;
      padding: .3em .3em;
   }
