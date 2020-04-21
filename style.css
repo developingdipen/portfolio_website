@@ -27,7 +27,7 @@ html, body {
   padding-right: 10%;
   text-align: left; 
   position:absolute;                  
-  bottom:0;
+  bottom:6%;
  
 }
 
@@ -54,7 +54,7 @@ h2{
 .navbar{
   overflow: hidden;
   position: sticky;
-  bottom: 0;
+  bottom: 0%;
   width: 100%;
 }
 
