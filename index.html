@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">	
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	
   <script type="text/javascript" src="script.js"></script>
 	
@@ -39,7 +40,7 @@
     </div>
   
     <div class= "content"> 
-      <div class= "about" id="about">
+      <div class= "about" id="about" data-aos="slide-up">
         <h3> About</h3>
         <h4>So why DevelopingDipen.com? And not DipenPatel.com?</h4>
 	<p> I am career changer so not only am I learning Web Development,  I’m also developing a new identity for myself—I’m Developing a new Dipen alongside Web Applications!</p>
@@ -58,24 +59,24 @@
       <div class= "projects" id="projects"> 
         <h3>Projects</h3>   
         <div>
-	  <!--  <div class= "project-layout">
+	  <!--  <div class= "project-layout" data-aos="slide-left">
               <h4>Deepak's Darkroom|A Photgraphy Portfolio Website</h4>
-               <embed src="https://developingdipen.github.io/deepak/index.html" style="width:100%; height:600px;">
+               <embed src="https://developingdipen.github.io/deepak/index.html" style="width:100%; height:80vh;">
               <p>A responsive website designed and developed using a minimalistic, high contrast approach.</p>
             </div>	-->
-            <div class= "project-layout">
+            <div class= "project-layout" data-aos="slide-right">
               <h4>Mockup for Lawyer.com</h4>
-               <embed src="https://developingdipen.github.io/lawyer_mockup/" style="width:100%; height:600px;">
+               <embed src="https://developingdipen.github.io/lawyer_mockup/" style="width:100%; height:80pvh;">
               <p>Used HTML, CSS, and JavaScript to create a fully functional website using a provided png and minimal assistance.</p>
             </div>
-            <div class= "project-layout">
+            <div class= "project-layout" data-aos="slide-left">
               <h4>Content Streaming Survey Form</h4>
-              <embed src="https://codepen.io/developingdipen/full/povwmQV" style="width:100%; height:600px;">
+              <embed src="https://codepen.io/developingdipen/full/povwmQV" style="width:100%; height:80vh;">
              <p>Second Web Application created as a part of freeCodeCamp's Responsive Web Design Certification. Used HTML and CSS to make this.</p>
             </div>
-            <div class= "project-layout">
+            <div class= "project-layout" data-aos="slide-right">
               <h4>Tribute Page for Chris Lane</h4>
-              <embed src="https://codepen.io/developingdipen/full/NWWgRXO" style="width:100%; height:600px;">
+              <embed src="https://codepen.io/developingdipen/full/NWWgRXO" style="width:100%; height:80vh;">
              <p>First Website created as a self-taught Web Developer. Created as a part of freeCodeCamp's Responsive Web Design Certification. Used HTML and CSS to make this.</p>
               </div>
         </div>
@@ -132,4 +133,10 @@
     </div>
   
 </div>
+	
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+	
 </html>
