@@ -32,7 +32,7 @@
   
     <div class= "navbar">
       <div class="nav-links">
-         <a href="#home"class="animated fadeIn slow delay-2s">Home</a>
+         <a href="index.html"class="animated fadeIn slow delay-2s">Home</a>
          <a href="#about" class="animated fadeIn slow delay-2s">About</a>
          <a href="#projects" class="animated fadeIn slow delay-2s">Projects</a>
          <a href="#contact" class="animated fadeIn slow delay-2s">Contact</a>
@@ -59,63 +59,68 @@
       </div> 
       <div class= "projects" id="projects"> 
         <h3>Projects</h3>
-        <h5>Projects are embbed for a streamlined and responsive viewing experience.</h5>   
+        <h5 data-aos="flip-down" data-aos-delay="1000"data-aos-duration="800">Projects are embedded for a streamlined and responsive viewing experience.</h5>   
         <div>
           <div class= "project-layout" data-aos="slide-left">
               <h4>The Gallery | My Photography Website</h4>
                 <embed src="https://developingdipen.github.io/The-Gallery/" style="width:100%; height:80vh;">
                 <p>A website designed to showcase photographs in a widescreen experience to ehnhance the subtle details.</p>
-                <div class="project-links">
-                  <button class="project-btn"><a href="https://developingdipen.github.io/The-Gallery/" target="blank" rel="noreferrer">Live Website</a></button>
-                  <button class="project-btn"><a href="" target="_blank" rel="noreferrer">Case Study</a></button>
-                </div>
-            </div>
-	          <div class= "project-layout" data-aos="slide-right">
+                  <div class="project-links">
+                    <button class="project-btns"><a href="https://developingdipen.github.io/The-Gallery/" target="blank" rel="noreferrer">Live Website</a></button>
+                    <button class="project-btns case-btn" onclick="caseToggle()">Case Study</button>
+                  </div>
+                <!--
+                <div id="caseStudy" class="caseStudy animated fadeIn">
+                  <p>Loren Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Loren Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                  <p>Loren Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>-->                
+          </div>
+	        <div class= "project-layout" data-aos="slide-right">
               <h4>SH Medical Billing | A Business Website</h4>
                 <embed src="https://developingdipen.github.io/SH-Medical-Billing/" style="width:100%; height:80vh;">
                 <p>A revamped, responsive website designed with a modern colorful flair.</p>
-                <div class="project-links">
-                  <button class="project-btn"><a href="https://developingdipen.github.io/SH-Medical-Billing/" target="_blank" rel="noreferrer">Live Website</a></button>
-                  <button class="project-btn"><a href="" target="_blank" rel="noreferrer">Case Study</a></button>
-                </div>
-            </div>
-	          <div class= "project-layout" data-aos="slide-left">
+                  <div class="project-links">
+                    <button class="project-btns"><a href="https://developingdipen.github.io/SH-Medical-Billing/" target="_blank" rel="noreferrer">Live Website</a></button>
+                    <button class="project-btns case-btn" onclick="caseToggle()">Case Study</button>
+                  </div>
+          </div>
+	        <div class= "project-layout" data-aos="slide-left">
               <h4>Deepak's Darkroom | A Client's Photgraphy Website</h4>
                 <embed src="https://developingdipen.github.io/deepak/" style="width:100%; height:80vh;">
                 <p>A responsive website designed and developed using a minimalistic, high contrast approach.</p>
-                <div class="project-links">
-                  <button class="project-btn"><a href="https://developingdipen.github.io/deepak/" target="_blank" rel="noreferrer">Live Website</a></button>
-                  <button class="project-btn"><a href="" target="_blank" rel="noreferrer">Case Study</a></button>
-                </div>
-            </div> 
-            <div class= "project-layout" data-aos="slide-right">
+                  <div class="project-links">
+                    <button class="project-btns"><a href="https://developingdipen.github.io/deepak/" target="_blank" rel="noreferrer">Live Website</a></button>
+                    <button class="project-btns case-btn" onclick="caseToggle()">Case Study</button>
+                  </div>
+          </div> 
+          <div class= "project-layout" data-aos="slide-right">
               <h4>Mockup for Lawyer.com</h4>
                 <embed src="https://developingdipen.github.io/lawyer_mockup/" style="width:100%; height:80vh;">
                 <p>Used HTML, CSS, and JavaScript to create a fully functional website using a provided png and minimal assistance.</p>
-                <div class="project-links">
-                  <button class="project-btn"><a href="https://developingdipen.github.io/lawyer_mockup/" target="_blank" rel="noreferrer">Live Website</a></button>
-                  <button class="project-btn"><a href="" target="_blank" rel="noreferrer">Case Study</a></button>
-                </div>
-            </div>
-            <div class= "project-layout" data-aos="slide-left">
+                  <div class="project-links">
+                    <button class="project-btns"><a href="https://developingdipen.github.io/lawyer_mockup/" target="_blank" rel="noreferrer">Live Website</a></button>
+                    <button class="project-btns case-btn" onclick="caseToggle()">Case Study</button>
+                  </div>
+          </div>
+          <div class= "project-layout" data-aos="slide-left">
               <h4>Content Streaming Survey Form</h4>
                 <embed src="https://developingdipen.github.io/FCC-Survey-Form/" style="width:100%; height:80vh;">
                 <p>Second Web Application created as a part of freeCodeCamp's Responsive Web Design Certification. Used HTML and CSS to make this.</p>
-                <div class="project-links">
-                  <button class="project-btn"><a href="https://developingdipen.github.io/FCC-Survey-Form/" target="_blank" rel="noreferrer">Live Website</a></button>
-                  <button class="project-btn"><a href="" target="_blank" rel="noreferrer">Case Study</a></button>
-                </div>
-            </div>
-            <div class= "project-layout" data-aos="slide-right">
+                  <div class="project-links">
+                    <button class="project-btns"><a href="https://developingdipen.github.io/FCC-Survey-Form/" target="_blank" rel="noreferrer">Live Website</a></button>
+                    <button class="project-btns case-btn" onclick="caseToggle()">Case Study</button>
+                  </div>
+          </div>
+          <div class= "project-layout" data-aos="slide-right">
               <h4>Tribute Page for Chris Lane</h4>
                 <embed src="https://developingdipen.github.io/FCC-Tribute-Page/" style="width:100%; height:80vh;">
                 <p>First Website created as a self-taught Web Developer. Created as a part of freeCodeCamp's Responsive Web Design Certification. Used HTML and CSS to make this.</p>
-                <div class="project-links">
-                  <button class="project-btn"><a href="https://developingdipen.github.io/FCC-Tribute-Page/" target="_blank" rel="noreferrer">Live Website</a></button>
-                  <button class="project-btn"><a href="" target="_blank" rel="noreferrer">Case Study</a></button>
-                </div>
-            </div>
-
+                  <div class="project-links">
+                    <button class="project-btns"><a href="https://developingdipen.github.io/FCC-Tribute-Page/" target="_blank" rel="noreferrer">Live Website</a></button>
+                    <button class="project-btns case-btn" onclick="caseToggle()">Case Study</button>
+                  </div>
+          </div>
         </div>
       </div> 
       
@@ -141,25 +146,25 @@
     <div class="footer" id="contact">
        <table class="outertable">
           <tr>
-    	     <td>
+    	      <td>
               <table class="tableleft">
                	<tr>
-          	  <td colspan="2" id="footer-logo">Developingdipen.com</td>        	
-        	</tr>
+          	      <td colspan="2" id="footer-logo">Developingdipen.com</td>        	
+        	      </tr>
                 <tr>
-           	    <td>&copy; 2020 Dipen Patel</td>
+           	      <td>&copy; 2020 Dipen Patel</td>
             	    <td>All Rights Reserved.</td>
-          	</tr>   
+          	    </tr>   
               </table>
             </td>
             <td>
               <table class="tableright">
-                 <tr>
-           	    <td>Greater New York City Area</td>
-        	 </tr>            
-   		 <tr>
+                <tr>
+           	      <td>Greater New York City Area</td>
+        	      </tr>            
+   		          <tr>
             	    <td onclick="window.location.href='mailto: dipen.baps@gmail.com';" rel="noreferrer" aria-label="Email Link">dipen.baps@gmail.com</td>  
-          	</tr>     
+          	    </tr>     
               </table>
             </td>
           </tr>
