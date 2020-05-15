@@ -22,3 +22,13 @@ function topFunction() {
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
+
+
+function caseToggle() {
+  var x = document.getElementById("caseStudy");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
